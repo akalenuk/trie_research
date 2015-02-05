@@ -9,25 +9,25 @@ Here's some numbers I measured:
 1000 loop cycles reading about 50 000 records
 
                     memory          R time
-    trie 2          53 M            20 s.           
-    trie 4          36 M            11 s.
-    trie 16         46 M                8 s.
-    trie 128        150 M           21 s.
+    trie 2          53 Mb            20 s           
+    trie 4          36 Mb            11 s
+    trie 16         46 Mb             8 s
+    trie 128        150 Mb           21 s
     
-    hash            5 M                     14 s.
-    R/B tree        5 M                 44 s.
+    hash            5 Mb             14 s
+    R/B tree        5 Mb             44 s
     
-    low_bound       3.1 M               74 s.
-    vector          3.1 M           21 000 s.
-    string          3.7 M           20 000 s.
+    low_bound       3.1 Mb           74 s
+    vector          3.1 Mb       21 000 s
+    string          3.7 Mb       20 000 s
 
 
 10 000 loop cycles reading 5000 records
 
-    trie 2          4 M                     4 s.
-    trie 4          4 M                     4 s.
-    trie 16         7 M                     4 s.
-    trie 128        11 M            3 s.
+    trie 2          4 Mb              4 s
+    trie 4          4 Mb              4 s
+    trie 16         7 Mb              4 s
+    trie 128        11 Mb             3 s
     
-    hash            1 M                     11 s.
-    R/B tree        1 M                 31 s.
+    hash            1 Mb             11 s
+    R/B tree        1 Mb             31 s
